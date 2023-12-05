@@ -1,0 +1,33 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  color: #fff;
+}
+h1 {
+  text-transform: uppercase;
+}
+form {
+  border: 1px solid grey;
+  width: 650px;
+  height: 300px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: rgb(227, 81, 81);
+}
+form div {
+  margin: 0 auto;
+  width: 300px;
+  height: 35px;
+}
+input.user-name,
+input.user-pass {
+  float: right;
+  height: 25px;
+  width: 200px;
+}
+.login-btn,
+.cancel-btn {
+  width: 150px;
+  height: 30px;
+}
